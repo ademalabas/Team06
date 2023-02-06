@@ -62,6 +62,7 @@ public class ContactPage extends AbstactClass {
     @FindBy(xpath = "//p[contains(text(),' ')]")
     private WebElement alertMessage;
 
+
     @FindAll({@FindBy(xpath = "//p[text()='You must need to provide your email address']"),
             @FindBy(xpath = "//p[text()='You must need to provide your name']"),
             @FindBy(xpath = "//p[text()='What subject do you want to discuss with us?']"),
