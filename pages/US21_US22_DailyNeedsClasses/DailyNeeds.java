@@ -16,6 +16,7 @@ import java.util.List;
 
 public class DailyNeeds extends AbstactClass {
 
+
     public DailyNeeds() {
         PageFactory.initElements(Driver.getDriver(),this);
     }
