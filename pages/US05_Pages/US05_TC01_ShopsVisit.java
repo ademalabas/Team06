@@ -14,10 +14,7 @@ import java.util.List;
 
 public class US05_TC01_ShopsVisit extends AbstactClass {
 
-
-
     public US05_TC01_ShopsVisit(){
-
 
         PageFactory.initElements(Driver.getDriver(),this);
     }
