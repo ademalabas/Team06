@@ -20,9 +20,7 @@ public class US010_MakeUpOperation extends AbstactClass {
 
         PageFactory.initElements(Driver.getDriver(), this);
 
-
     }
-
 
     public void urunaramauruntiklama(){
         searchBtn.click();
@@ -117,9 +115,6 @@ public class US010_MakeUpOperation extends AbstactClass {
         return Integer.valueOf(text);
 
     }
-
-
-
 
 
     WebDriver ldriver=Driver.getDriver();
