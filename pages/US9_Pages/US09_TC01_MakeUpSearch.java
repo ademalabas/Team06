@@ -23,7 +23,6 @@ public class US09_TC01_MakeUpSearch extends AbstactClass {
 
         wait.until(ExpectedConditions.elementToBeClickable(menuBTn)).click();
     }
-
     @FindBy(xpath = "//a[@href='/makeup']")
     public WebElement makeup;
 
