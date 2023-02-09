@@ -16,7 +16,6 @@ public class US008_HomePage extends AbstactClass {
 
     }
 
-
     @FindBy(xpath = "(//div[@class='relative inline-block ltr:text-left rtl:text-right'])[1]")
     public WebElement menuBUtton;
 
@@ -37,7 +36,6 @@ public class US008_HomePage extends AbstactClass {
 
     @FindBy(xpath = "//a[@href=\"/daily-needs\"]")
     public WebElement dNButton;
-
    // @FindBy(xpath = "//div[@role='menuitem']")
     //public List<WebElement> menuItems;
 }
