@@ -120,7 +120,6 @@ public class US010_MakeUpOperation extends AbstactClass {
     WebDriver ldriver=Driver.getDriver();
     Actions action =new Actions(ldriver);
 
-
     public boolean image(){
 
         List<WebElement> urunelementleri=Driver.getDriver().findElements(By.xpath("//img[@class='product-image']"));
